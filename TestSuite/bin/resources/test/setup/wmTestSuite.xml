@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<webMethodsTestSuite description="" name="TS_wmTestSuite.xml">
+    <webMethodsTestCase name="TC_addition">
+        <service folder="TestSuite" name="addition">
+            <input>
+                <file filename="resources/test/data/input.xml"/>
+            </input>
+            <expected>
+                <file filename="resources/test/data/output.xml"/>
+            </expected>
+        </service>
+    </webMethodsTestCase>
+    <webMethodsTestCase description="Generate a Test Wizard" name="TC_sutraction">
+        <service folder="TestSuite" name="sutraction">
+            <input>
+                <file filename="TestSuite_sutraction_input.xml"/>
+            </input>
+            <expected>
+                <file filename="resources/test/setup/TestSuite_sutraction_output.xml"/>
+            </expected>
+        </service>
+    </webMethodsTestCase>
+</webMethodsTestSuite>
